@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-with, initial-scale=1.0">
+	<title>Pop Rock škola Sarajevo</title>
+	<link rel="stylesheet" type="text/css" href="slick.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script src="slick.js"></script>.
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script>
+		$(function(){
+			$('.gallery').slick({
+				infinite: true,
+  				slidesToShow: 1,
+  				slidesToScroll: 1,
+  				arrows:false,
+  				dots:false,
+  				speed: 1000,
+  				autoplay: true,
+  				autoplaySpeed: 5000
+			});
+		})
+	</script>
+</head>
+<body>
+	<section class="header subpage">
+		<nav>
+			<a href="index.html"><img src="slike/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">NASLOVNA</a></li>
+					<li><a href="about.html">O NAMA</a></li>
+					<li><a href="course.html">ODSJECI</a></li>
+					<li><a href="galerija.html">GALERIJA</a></li>
+					<li><a href="contact.html">KONTAKT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Galerija</h1>
+		</div>
+	</section>
+		<a href="slike/slika1.jpg" data-fancybox="gallery" id="galleryBtn">
+			<div id="galleryOpacityCont">
+				<p>Otvori galeriju</p>
+			</div>
+				<img src="slike/slika1.jpg"/>
+		</a>
+	<div class="gallery" style="display: none;">
+		<a href="slike/tarik.jpg" data-fancybox="gallery"><img src="slike/tarik.jpg"/></a>
+		<a href="slike/angelvoice.jpg" data-fancybox="gallery"><img src="slike/angelvoice.jpg"/></a>
+		<a href="slike/banner1.jpg" data-fancybox="gallery"><img src="slike/banner1.jpg"/></a>
+		<a href="slike/banner5.jpg" data-fancybox="gallery"><img src="slike/banner5.jpg"/></a>
+		<a href="slike/bend.jpg" data-fancybox="gallery"><img src="slike/bend.jpg"/></a>
+		<a href="slike/behthescenes.jpg" data-fancybox="gallery"><img src="slike/behthescenes.jpg"/></a>
+		<a href="slike/fundraising.jpg" data-fancybox="gallery"><img src="slike/fundraising.jpg"/></a>
+		<a href= "slike/koncert.jpg" data-fancybox="gallery"><img src="slike/koncert.jpg"/></a>
+		<a href="slike/majskicvijet.jpg" data-fancybox="gallery"><img src="slike/majskicvijet.jpg"/></a>
+		<a href="slike/mentoricaiucenici.jpg" data-fancybox="gallery"><img src="slike/mentoricaiucenici.jpg"/></a>
+		<a href="slike/pjevaci.jpg" data-fancybox="gallery"><img src="slike/pjevaci.jpg"/></a>
+		<a href="slike/slika2.jpg" data-fancybox="gallery"><img src="slike/slika2.jpg"/></a>
+		<a href="slike/slika3.jpg" data-fancybox="gallery"><img src="slike/slika3.jpg"/></a>
+		<a href="slike/vils.jpg" data-fancybox="gallery"><img src="slike/vils.jpg"/></a>
+		<a href="slike/proba.jpg" data-fancybox="gallery"><img src="slike/proba.jpg"/></a>
+		<a href="slike/narodno.jpg" data-fancybox="gallery"><img src="slike/narodno.jpg"/></a>
+		<a href="slike/grandprix.jpg" data-fancybox="gallery"><img src="slike/grandprix.jpg"/></a>
+		<a href="slike/happiness.jpg" data-fancybox="gallery"><img src="slike/happiness.jpg"/></a>
+		<a href="slike/ana.jpg" data-fancybox="gallery"><img src="slike/ana.jpg"/></a>
+		<a href="slike/faja.jpg" data-fancybox="gallery"><img src="slike/faja.jpg"/></a>
+		<a href="slike/dejana.jpg" data-fancybox="gallery"><img src="slike/dejana.jpg"/></a>
+		<a href="slike/television.jpg" data-fancybox="gallery"><img src="slike/television.jpg"/></a>
+		<a href="slike/tare.jpg" data-fancybox="gallery"><img src="slike/tare.jpg"/></a>
+		<a href="slike/supertalent4.jpg" data-fancybox="gallery"><img src="slike/supertalent4.jpg"/></a>
+	</div>
+</body>
+</html>
