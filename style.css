@@ -1,6 +1,10 @@
 body{
 	background-color:#000;
 }
+img{
+	max-width:100%;
+	height:auto;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -429,4 +433,12 @@ h3 {
 	padding: 10px 20px;
 	border-radius: 8px;
 	color: #000;
+}
+
+/*Slika galerija*/
+@media(max-width:450px){
+	#galleryBtn{
+		width:100%;
+		height:auto;
+	}
 }
