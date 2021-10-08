@@ -14,19 +14,19 @@
 	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 	<script src="slick.js"></script>.
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<!------JavaScript for Toggle Menu------>
+
 	<script>
-		$(function(){
-			$('.gallery').slick({
-				infinite: true,
-  				slidesToShow: 1,
-  				slidesToScroll: 1,
-  				arrows:false,
-  				dots:false,
-  				speed: 1000,
-  				autoplay: true,
-  				autoplaySpeed: 5000
-			});
-		})
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px";
+		}
+
 	</script>
 </head>
 <body>
